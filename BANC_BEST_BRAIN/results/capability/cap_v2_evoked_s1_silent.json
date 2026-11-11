@@ -1,0 +1,20 @@
+{
+ "brain": "v2",
+ "test": "evoked",
+ "seed": 1,
+ "f": 250.0,
+ "offset": 90.0,
+ "T": 5.5,
+ "silent": true,
+ "live": false,
+ "base": 0,
+ "odor_during": 4197,
+ "odor_after": 2862,
+ "loom_during": 6177,
+ "loom_after": 2886,
+ "odor_gain": 18.736607142857142,
+ "loom_gain": 20.938983050847458,
+ "gf": 56.3157894736842,
+ "odor_decays": false,
+ "loom_decays": false
+}

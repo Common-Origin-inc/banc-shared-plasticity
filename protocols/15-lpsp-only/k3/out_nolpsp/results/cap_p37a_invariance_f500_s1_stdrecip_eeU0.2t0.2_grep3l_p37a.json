@@ -1,0 +1,35 @@
+{
+ "brain": "p37a",
+ "test": "invariance",
+ "seed": 1,
+ "f": 500.0,
+ "offset": 90.0,
+ "T": 6.0,
+ "silent": false,
+ "live": false,
+ "cue_offset": 0.0,
+ "cue_angle": -0.587881127090027,
+ "windows": [
+  {
+   "t": [
+    1.597,
+    6.0
+   ],
+   "n_epg": 29,
+   "hz": 10.408263957959697,
+   "fwhm": 64.0,
+   "R": 0.6299330959667407,
+   "angle": -12.293327843858894,
+   "alive": 0.6625,
+   "n_bumps": 1,
+   "active_brain": 43112
+  }
+ ],
+ "n_epg": 29,
+ "hz": 10.408263957959697,
+ "fwhm": 64.0,
+ "R": 0.6299330959667407,
+ "alive": 0.6625,
+ "n_bumps": 1,
+ "active_brain": 43112
+}

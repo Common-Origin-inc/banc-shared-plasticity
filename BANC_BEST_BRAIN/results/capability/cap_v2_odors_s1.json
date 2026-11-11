@@ -1,0 +1,20 @@
+{
+ "brain": "v2",
+ "test": "odors",
+ "seed": 1,
+ "f": 250.0,
+ "offset": 90.0,
+ "T": 5.0,
+ "silent": false,
+ "live": false,
+ "kc_A": 0.7774604569420035,
+ "kc_B": 0.7682337434094904,
+ "jaccard": 0.9648142976822117,
+ "kc_hz_A": 119.79881602071966,
+ "kc_hz_B": 118.18749421885116,
+ "n_A": 3539,
+ "n_B": 3497,
+ "n_both": 3455,
+ "sparse": false,
+ "distinct": false
+}

@@ -1,0 +1,25 @@
+{
+ "brain": "v2",
+ "test": "rest",
+ "seed": 1,
+ "f": 250.0,
+ "offset": 90.0,
+ "T": 4.0,
+ "silent": 0.8100652376514446,
+ "live": false,
+ "provenance": {
+  "git_commit": "290083b237f96dbefc2ff70984405c8b10e162ef",
+  "git_dirty": false,
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "brian2": "2.10.1",
+  "brian2cuda": "1.0b1"
+ },
+ "active": 9444,
+ "mean_hz": 17.281405937957665,
+ "median_active_hz": 79.42857142857143,
+ "ceiling": 0.01679403541472507,
+ "cv": 0.078668597208258,
+ "corr": 0.0023372747364689694,
+ "lograte_skew": -1.2718664675051936
+}

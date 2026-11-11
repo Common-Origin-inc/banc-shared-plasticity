@@ -1,0 +1,41 @@
+{
+ "tag": "v2_matched",
+ "gains": "none",
+ "scales": [],
+ "n_active": 0,
+ "rate_active_hz": 0.0,
+ "prof_deg": [
+  0.0,
+  22.5,
+  45.0,
+  67.5,
+  90.0,
+  112.5,
+  135.0,
+  157.5
+ ],
+ "prof": [
+  NaN,
+  NaN,
+  NaN,
+  NaN,
+  NaN,
+  NaN,
+  NaN,
+  NaN
+ ],
+ "cos_a0": NaN,
+ "cos_a1": NaN,
+ "cos_r2": NaN,
+ "B_dip": 0.0,
+ "B_tau_s": 0.0132,
+ "fwhm_deg": 8.0,
+ "R": 0.0022727272727272726,
+ "alive": 0.006818181818181818,
+ "drift_deg": 146.33215843888757,
+ "kim_2017": {
+  "fwhm_deg": 90,
+  "persists_after_light_off": true,
+  "raster": "none (calcium imaging, 16 wedges)"
+ }
+}

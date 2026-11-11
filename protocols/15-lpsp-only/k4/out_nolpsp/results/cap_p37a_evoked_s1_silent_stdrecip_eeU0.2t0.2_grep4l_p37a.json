@@ -1,0 +1,22 @@
+{
+ "brain": "p37a",
+ "test": "evoked",
+ "seed": 1,
+ "f": 250.0,
+ "offset": 90.0,
+ "T": 5.5,
+ "silent": true,
+ "live": false,
+ "cue_offset": 0.0,
+ "cue_angle": -0.587881127090027,
+ "base": 305,
+ "odor_during": 694,
+ "odor_after": 467,
+ "loom_during": 3002,
+ "loom_after": 107,
+ "odor_gain": 1.7366071428571428,
+ "loom_gain": 9.142372881355932,
+ "gf": 16.315789473684205,
+ "odor_decays": false,
+ "loom_decays": true
+}

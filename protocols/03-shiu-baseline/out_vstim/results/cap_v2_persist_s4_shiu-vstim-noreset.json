@@ -1,0 +1,156 @@
+{
+ "brain": "v2",
+ "test": "persist",
+ "seed": 4,
+ "f": 250.0,
+ "offset": 90.0,
+ "T": 20.0,
+ "silent": false,
+ "live": false,
+ "provenance": {
+  "git_commit": "290083b237f96dbefc2ff70984405c8b10e162ef",
+  "git_dirty": false,
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "brian2": "2.10.1",
+  "brian2cuda": "1.0b1"
+ },
+ "windows": [
+  {
+   "t": [
+    1.597,
+    3.597
+   ],
+   "n_epg": 0,
+   "hz": 0.0,
+   "fwhm": 0.0,
+   "R": 0.0,
+   "angle": 0.0,
+   "alive": 0.0,
+   "n_bumps": 0,
+   "active_brain": 32432
+  },
+  {
+   "t": [
+    3.597,
+    5.5969999999999995
+   ],
+   "n_epg": 0,
+   "hz": 0.0,
+   "fwhm": 0.0,
+   "R": 0.0,
+   "angle": 0.0,
+   "alive": 0.0,
+   "n_bumps": 0,
+   "active_brain": 32555
+  },
+  {
+   "t": [
+    5.5969999999999995,
+    7.5969999999999995
+   ],
+   "n_epg": 0,
+   "hz": 0.0,
+   "fwhm": 0.0,
+   "R": 0.0,
+   "angle": 0.0,
+   "alive": 0.0,
+   "n_bumps": 0,
+   "active_brain": 32383
+  },
+  {
+   "t": [
+    7.5969999999999995,
+    9.597
+   ],
+   "n_epg": 0,
+   "hz": 0.0,
+   "fwhm": 0.0,
+   "R": 0.0,
+   "angle": 0.0,
+   "alive": 0.0,
+   "n_bumps": 0,
+   "active_brain": 32362
+  },
+  {
+   "t": [
+    9.597,
+    11.597
+   ],
+   "n_epg": 0,
+   "hz": 0.0,
+   "fwhm": 0.0,
+   "R": 0.0,
+   "angle": 0.0,
+   "alive": 0.0,
+   "n_bumps": 0,
+   "active_brain": 32413
+  },
+  {
+   "t": [
+    11.597,
+    13.597
+   ],
+   "n_epg": 0,
+   "hz": 0.0,
+   "fwhm": 0.0,
+   "R": 0.0,
+   "angle": 0.0,
+   "alive": 0.0,
+   "n_bumps": 0,
+   "active_brain": 32552
+  },
+  {
+   "t": [
+    13.597,
+    15.597
+   ],
+   "n_epg": 0,
+   "hz": 0.0,
+   "fwhm": 0.0,
+   "R": 0.0,
+   "angle": 0.0,
+   "alive": 0.0,
+   "n_bumps": 0,
+   "active_brain": 32436
+  },
+  {
+   "t": [
+    15.597,
+    17.597
+   ],
+   "n_epg": 0,
+   "hz": 0.0,
+   "fwhm": 0.0,
+   "R": 0.0,
+   "angle": 0.0,
+   "alive": 0.0,
+   "n_bumps": 0,
+   "active_brain": 32452
+  },
+  {
+   "t": [
+    17.597,
+    19.597
+   ],
+   "n_epg": 0,
+   "hz": 0.0,
+   "fwhm": 0.0,
+   "R": 0.0,
+   "angle": 0.0,
+   "alive": 0.0,
+   "n_bumps": 0,
+   "active_brain": 32475
+  }
+ ],
+ "alive": 0.0,
+ "drift_total": 0.0,
+ "drift_step_med": 0.0,
+ "hz_mean": 0.0,
+ "fwhm_mean": 0.0,
+ "isi_cv": NaN,
+ "fano": NaN,
+ "n_bump": 0,
+ "hz_bump": 0.0,
+ "hz_ring_max": 0.0
+}

@@ -1,0 +1,23 @@
+{
+ "brain": "p37a",
+ "test": "conc",
+ "seed": 1,
+ "f": 3.0,
+ "offset": 90.0,
+ "T": 2.0,
+ "silent": true,
+ "live": false,
+ "provenance": {
+  "git_commit": "21cb1565696c9d425c9c3f4059a77803179e3df9",
+  "git_dirty": false,
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "brian2": "2.10.1",
+  "brian2cuda": "1.0b1"
+ },
+ "orn": 87.72556390977445,
+ "pn": 45.077399380804955,
+ "kc_frac": 0.570518453427065,
+ "kc_hz": 33.59656831005458,
+ "active": 7067
+}

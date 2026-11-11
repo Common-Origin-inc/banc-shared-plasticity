@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+# run outputs written next to the code (capability_tests.py, lft_bump.py)
+results_cap/
+results_lft/
+# LaTeX build products
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+# BANC tables (not redistributed; see README)
+bulk/
+# replicate checkpoints are release assets (weights-v1), not tracked
+protocols/**/*.npz

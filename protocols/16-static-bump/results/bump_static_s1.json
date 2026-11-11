@@ -1,0 +1,50 @@
+{
+ "seed": 1,
+ "T": 4.0,
+ "stim_on": 0.5,
+ "stim_off": 1.547,
+ "stim_contacts_per_event": 250.0,
+ "stim_hz": 150.0,
+ "n_active_after": 13,
+ "active_hz_after": 288.04487179487177,
+ "fwhm_deg": 96.0,
+ "R_after": 0.8906704323114586,
+ "live_frac": 1.0,
+ "persist_s": 2.4530000000000003,
+ "epg_hz_before": 0.0,
+ "stim_rows": [
+  0,
+  1,
+  2,
+  3,
+  43,
+  44
+ ],
+ "active_rows": [
+  0,
+  1,
+  2,
+  3,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44
+ ],
+ "stim_rows_active": 6,
+ "cue_angle_deg": -153.67825436903584,
+ "bump_angle_deg": -177.34247611576436,
+ "n_active_brain_after": 2167,
+ "provenance": {
+  "git_commit": null,
+  "git_dirty": null,
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "brian2": "2.10.1",
+  "brian2cuda": "1.0b1"
+ }
+}

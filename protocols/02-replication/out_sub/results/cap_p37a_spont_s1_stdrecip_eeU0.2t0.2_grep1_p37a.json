@@ -1,0 +1,41 @@
+{
+ "brain": "p37a",
+ "test": "spont",
+ "seed": 1,
+ "f": 250.0,
+ "offset": 90.0,
+ "T": 8.0,
+ "silent": false,
+ "live": false,
+ "provenance": {
+  "git_commit": "6fe11eefa9dee9914657f8059b87c55f99368883",
+  "git_dirty": false,
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "brian2": "2.10.1",
+  "brian2cuda": "1.0b1"
+ },
+ "windows": [
+  {
+   "t": [
+    1.0,
+    8.0
+   ],
+   "n_epg": 33,
+   "hz": 12.506493506493507,
+   "fwhm": 96.0,
+   "R": 0.8489636473779507,
+   "angle": -24.699162615481,
+   "alive": 0.885,
+   "n_bumps": 1,
+   "active_brain": 42185
+  }
+ ],
+ "n_epg": 33,
+ "hz": 12.506493506493507,
+ "fwhm": 96.0,
+ "R": 0.8489636473779507,
+ "alive": 0.885,
+ "n_bumps": 1,
+ "active_brain": 42185
+}

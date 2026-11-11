@@ -1,0 +1,23 @@
+{
+ "brain": "v2",
+ "test": "conc",
+ "seed": 1,
+ "f": 3.0,
+ "offset": 90.0,
+ "T": 2.0,
+ "silent": true,
+ "live": false,
+ "provenance": {
+  "git_commit": "85ea08c014f21dde3ff6748ca11c0e230feb6262",
+  "git_dirty": false,
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "brian2": "2.10.1",
+  "brian2cuda": "1.0b1"
+ },
+ "orn": 0.0,
+ "pn": 0.0,
+ "kc_frac": 0.0,
+ "kc_hz": 0.0,
+ "active": 0
+}

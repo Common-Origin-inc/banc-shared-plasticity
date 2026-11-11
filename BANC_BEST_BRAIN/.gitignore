@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+# standalone build directories and scratch outputs
+/tmp/
+brian_*/
+rates_*.npz
+# re-learned weights (the two committed ones are the published brain)
+w_final_*.npz
+!w_final_p8.npz
+!w_final_p37a.npz
+# raw BANC bulk tables (downloaded separately, see tools/)
+bulk/
+*.feather
+*.parquet

@@ -1,0 +1,2 @@
+# checkpoints are not committed (as in protocol 02); hashes are in sha256.txt
+*.npz

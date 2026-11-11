@@ -1,0 +1,8 @@
+brian2==2.10.1
+brian2cuda==1.0b1        # GPU standalone device (optional; runtime mode works on CPU, ~30x slower)
+numpy==2.5.3             # version of all results
+pandas
+pyarrow                  # feather / parquet bulk tables
+matplotlib>=3.7          # figure script
+cython
+pytest                   # BANC_BEST_BRAIN/tests

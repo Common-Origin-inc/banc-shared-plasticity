@@ -1,0 +1,98 @@
+{
+  "datastack": "brain_and_nerve_cord_public",
+  "materialization": 888,
+  "fetched_utc": "2026-09-11T18:31:54.805402+00:00",
+  "core_types": [
+    "EPG",
+    "EPGt",
+    "PEN_a(PEN1)",
+    "PEN_b(PEN2)",
+    "PEG",
+    "Delta7"
+  ],
+  "core_selection": "codex_annotations, classification_system='cell_type'",
+  "synapse_table": "synapses_v3",
+  "n_core": 151,
+  "n_upstream": 700,
+  "n_total": 851,
+  "n_edges": 53936,
+  "n_synapses": 344025.0,
+  "boundary": {
+    "rule": "rank upstream neurons by synapses onto core, take top-N until INPUT_COVERAGE of external input mass",
+    "input_coverage_target": 0.85,
+    "input_coverage_achieved": 0.7943438140806562,
+    "max_upstream_cap": 700,
+    "n_upstream_taken": 700,
+    "core_input_from_outside_core_pct": 53.03576991701833,
+    "core_input_captured_in_circuit_pct": 89.09286499023438
+  },
+  "sign_policy": {
+    "inhibitory_transmitters": [
+      "gaba",
+      "glutamate"
+    ],
+    "default": "excitatory",
+    "note": "Shiu et al. convention; w_syn = 0.275 mV was calibrated under it"
+  },
+  "ring_recovery": {
+    "radius_cv": 0.10139766335487366,
+    "similarity_vs_separation": [
+      0.742012619972229,
+      0.6030188202857971,
+      0.45969682931900024,
+      0.3560694754123688,
+      0.291575163602829,
+      0.23278839886188507,
+      0.18221966922283173,
+      0.1406210958957672,
+      0.1137353926897049,
+      0.09827616810798645,
+      0.08489615470170975,
+      0.07130187004804611,
+      0.057831183075904846,
+      0.048424895852804184,
+      0.042491745203733444,
+      0.038924816995859146,
+      0.03983311355113983,
+      0.03824431076645851,
+      0.039711058139801025,
+      0.04204421490430832,
+      0.045127756893634796,
+      0.04783864691853523
+    ],
+    "note": "ANALYSIS METADATA ONLY, never passed to the simulation"
+  },
+  "volumes": {
+    "source": "l2cache size_nm3 summed over each neuron's level-2 chunks (chunkedgraph.get_leaves stop_layer=2)",
+    "n_missing_set_to_median": 0,
+    "median_um3": 130.69951488,
+    "min_um3": 0.47242368,
+    "max_um3": 2886.84873216,
+    "by_type_median_um3": {
+      "EPG": 277.82842752,
+      "EPGt": 96.68058624,
+      "PEN_a(PEN1)": 225.90589248,
+      "PEN_b(PEN2)": 161.3225376,
+      "PEG": 181.34053632,
+      "Delta7": 311.63584319999995,
+      "upstream": 74.35678464
+    }
+  },
+  "areas": {
+    "source": "l2cache area_nm2 summed over each neuron's level-2 chunks; sets PSP size via dV = Q / (c_m * A)",
+    "fragment_rule": "volume < 10 um^3 => area set to median of intact neurons, is_fragment=True",
+    "n_fragments": 333,
+    "median_intact_um2": 3822.206088,
+    "min_intact_um2": 242.850112,
+    "max_intact_um2": 55757.52928,
+    "by_type_median_um2": {
+      "EPG": 5653.495856,
+      "EPGt": 2114.728752,
+      "PEN_a(PEN1)": 4670.158464,
+      "PEN_b(PEN2)": 3414.265424,
+      "PEG": 4031.990224,
+      "Delta7": 5920.418696000001,
+      "upstream": 3334.000688
+    }
+  }
+}

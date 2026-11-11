@@ -1,0 +1,41 @@
+{
+ "tag": "rep5_p37a_stdrecip_eeU0.2t0.2",
+ "gains": "w_final_rep5_p37a.npz",
+ "scales": [],
+ "n_active": 11,
+ "rate_active_hz": 37.0062902433081,
+ "prof_deg": [
+  0.0,
+  22.5,
+  45.0,
+  67.5,
+  90.0,
+  112.5,
+  135.0,
+  157.5
+ ],
+ "prof": [
+  1.6470993663098745,
+  0.05442138196172305,
+  -0.27843553532169235,
+  NaN,
+  NaN,
+  NaN,
+  NaN,
+  NaN
+ ],
+ "cos_a0": -6.868775263022964,
+ "cos_a1": 8.593557569438374,
+ "cos_r2": 0.44736951809104586,
+ "B_dip": -0.07756271200101318,
+ "B_tau_s": 0.0132,
+ "fwhm_deg": 80.0,
+ "R": 0.9685180733224332,
+ "alive": 1.0,
+ "drift_deg": 14.863592470465335,
+ "kim_2017": {
+  "fwhm_deg": 90,
+  "persists_after_light_off": true,
+  "raster": "none (calcium imaging, 16 wedges)"
+ }
+}

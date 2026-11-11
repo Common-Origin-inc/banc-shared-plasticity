@@ -1,0 +1,197 @@
+{
+  "model": {
+    "neuron": "conductance-based LIF, one compartment",
+    "v_rest_mV": -52,
+    "v_reset_mV": -52,
+    "v_th_mV": -45,
+    "t_rfc_ms": 2.2,
+    "tau_m_ms": 20,
+    "c_m_uF_per_cm2": 1.0,
+    "g_L": "A_i * c_m / tau_m, A_i = BANC l2cache area_nm2",
+    "reset": "v = v_rst (standard; no synaptic reset)",
+    "synapse": "g += n_ji * G_syn on presynaptic spike, exponential decay",
+    "G_syn_pS": 20.0,
+    "tau_syn_ms": 5.0,
+    "E_rev_mV": {
+      "ach": 0.0,
+      "gaba": -70.0,
+      "glu": -70.0
+    },
+    "nt_to_channel": {
+      "acetylcholine": "ach",
+      "gaba": "gaba",
+      "glutamate": "glu"
+    },
+    "n_neuromodulatory_routed_to_ach": 82,
+    "adaptation_nS": 0.0,
+    "background": "none",
+    "cell_type_parameters": "none"
+  },
+  "protocol": {
+    "stim_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      42,
+      43,
+      44
+    ],
+    "stim_hz": 150.0,
+    "stim_synapses_per_spike": 250,
+    "stim_on_s": 0.5,
+    "stim_off_s": 1.0,
+    "t_end_s": 3.5
+  },
+  "n_fragments_at_median_area": 333,
+  "pass_criterion": "PR<20, J+1>0.5, 5<=active-neuron Hz<=60, R>0.35",
+  "silence_check_spikes": 0,
+  "verdict": "PERSISTENT LOCALISED but saturated",
+  "passes": false,
+  "per_seed": [
+    {
+      "epg_hz_after": 48.87980004544421,
+      "active_hz_after": 219.95910020449895,
+      "n_active_after": 10,
+      "epg_hz_before": 0.0,
+      "R_after": 0.9135930202526276,
+      "pr_after": 9.687333991128904,
+      "live_frac": 1.0,
+      "jaccard_+1.0": 0.8333333333333334,
+      "jaccard_+2.0": 0.8333333333333334,
+      "persist_s": 2.5,
+      "d7_after": 52.239263803680984,
+      "pen_after": 35.26146654981011,
+      "up_after": 16.352322524101666,
+      "active_rows": [
+        0,
+        1,
+        2,
+        3,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "epg_hz_after": 48.92524426266757,
+      "active_hz_after": 220.1635991820041,
+      "n_active_after": 10,
+      "epg_hz_before": 0.0,
+      "R_after": 0.9133965092281395,
+      "pr_after": 9.684814625959982,
+      "live_frac": 1.0,
+      "jaccard_+1.0": 0.9090909090909091,
+      "jaccard_+2.0": 0.9090909090909091,
+      "persist_s": 2.5,
+      "d7_after": 52.331288343558285,
+      "pen_after": 35.290680689453694,
+      "up_after": 16.36050248320187,
+      "active_rows": [
+        0,
+        1,
+        2,
+        3,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "epg_hz_after": 48.943421949556914,
+      "active_hz_after": 220.24539877300612,
+      "n_active_after": 10,
+      "epg_hz_before": 0.0,
+      "R_after": 0.9134660574634926,
+      "pr_after": 9.691284639071169,
+      "live_frac": 1.0,
+      "jaccard_+1.0": 0.9090909090909091,
+      "jaccard_+2.0": 0.9090909090909091,
+      "persist_s": 2.5,
+      "d7_after": 52.36196319018405,
+      "pen_after": 35.35884701528873,
+      "up_after": 16.36692959392346,
+      "active_rows": [
+        0,
+        1,
+        2,
+        3,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  ],
+  "mean": {
+    "g_syn_ps": 20.0,
+    "tau_ms": {
+      "ach": 5.0,
+      "gaba": 5.0,
+      "glu": 5.0
+    },
+    "b_adapt_ns": 0.0,
+    "epg_hz_before": [
+      0.0,
+      0.0
+    ],
+    "epg_hz_after": [
+      48.916155419222896,
+      0.03277029107442763
+    ],
+    "active_hz_after": [
+      220.12269938650306,
+      0.14746630983493617
+    ],
+    "n_active_after": [
+      10.0,
+      0.0
+    ],
+    "R_after": [
+      0.9134851956480866,
+      9.964360626000037e-05
+    ],
+    "pr_after": [
+      9.687811085386684,
+      0.003261285270079659
+    ],
+    "jaccard_+1.0": [
+      0.8838383838383838,
+      0.04373865675678979
+    ],
+    "jaccard_+2.0": [
+      0.8838383838383838,
+      0.04373865675678979
+    ],
+    "persist_s": [
+      2.5,
+      0.0
+    ],
+    "live_frac": [
+      1.0,
+      0.0
+    ],
+    "d7_after": [
+      52.310838445807775,
+      0.06385478525969632
+    ],
+    "pen_after": [
+      35.30366475151751,
+      0.04997177368241067
+    ],
+    "up_after": [
+      16.359918200409,
+      0.0073210424108330055
+    ]
+  },
+  "known_limitation": "bump neurons fire at the refractory ceiling (~200 Hz); real EPGs fire at tens of Hz. See module docstring."
+}
